@@ -3,14 +3,26 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" style="text/css">
     <link href="css/styles.css" rel="stylesheet" style="text/css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
     <title>Quiz Board</title>
   </head>
 
   <body>
-    <div class="container">
-    <h1><em>Welcome to the Quiz Board.</em></h1>
-     <p>Here you can test your JavaScript skills to see if you have understood it.</p>
-    <p><strong>Ready, Set, Go!!!</strong></p>
-    </div>
+      <h1><em>Welcome to the Quiz Board.</em></h1>
+       <p>Here you can test your JavaScript skills to see if you have understood it.</p>
+        <p><strong>Ready, Set, Go!!!</strong></p>
+
+      <div class="form">
+        <ol>
+        <br><li>Which of the following is true about JavaScript naming conventions?:</li>
+        <input type = "radio" id="quest1"/><br>
+        <br><li>What is the other name for JavaScript?</li>
+        <input type = "radio" id="quest2"/><br>
+        </ol>
+        </div>
+          <br><button class="btn" type = "button"  onclick="gt()">Get result</button><br>
+          <br><button class="btn" type = "reset"  onclick="gt()">Reset</button><br>
   </body>
 </html>
