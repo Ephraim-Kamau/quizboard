@@ -17,9 +17,9 @@ test.</p>
 |       Behaviour               |              Input example                 |           Output example      |
 |-------------------            | :---------------------------------------:  |------------------------------:|
 |The program determines whether |What is the other name for JavaScript?      |10 marks                       |
- the user has entered the         <ECMAscript>
-correct radio value and awards    <JS>
-him/her marks.                    <I Don't Know>                                                   
+ the user has entered the       | ECMAscript JS I Don't Know 
+correct radio value and awards    
+him/her marks.                                                                      
 |The program determines whether |length-1 (10) length-2(10) length-3 (13)    |This is an isosceles triangle  |  
 the three sides are equal to an
 isosceles triangle                                                                              
