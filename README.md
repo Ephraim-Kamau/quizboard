@@ -21,8 +21,8 @@ test.</p>
  them using a quiz.                                     
 |                                             | 5 questions are correct              | Your score is 50         |
 |                                             | 10 questions are correct             | Your score is 100        |
-|                                             | The user tries to submit without     | Please select one of
-                                                answering any question                 these inputs
+|                                             | The user tries to submit without     | Please select one of     |
+                                               answering any question                 these inputs           
 
 <p>Technologies used include:</p>
 <ul>
