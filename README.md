@@ -6,7 +6,7 @@ A brief description of my QUIZ BOARD program.
 22/2/2019
 ####
 By Ephraim Kamau
-
+  
 #### Setup Information
 Ensure you have JavaScript and Bootstrap files on your computer to enable the program function as it should.
 
