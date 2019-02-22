@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/bootstrap.css" rel="stylesheet" style="text/css">
+        <link href="css/styles.css" rel="stylesheet" style="text/css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <body background =images/border.jpg>
+      <title>Quiz Board</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="well">
+                <h1><strong>WELCOME TO THE QUIZ BOARD.</strong></h1>
+                <h2><strong>YOU CAN TEST YOUR JAVASCRIPT SKILLS HERE TO GAUGE WHETHER YOU HAVE UNDERSTOOD THEM.</strong></h2>
+                <h3><strong>READY. SET. GO!!!</strong></h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="well">
+                <div class="row">
+                    <form id ="quiz" name="quizboard">
+                          <ol>
+                              <br><li>Which of the following is true about JavaScript naming conventions?</li>
+                                  <input type = "radio" id="1a" name="answer1" value="10" required/> JavaScript variable names must begin with a letter which is in lowercase.<br>
+                                  <input type = "radio" id="2a" name="answer1" value="0"/> JavaScript variable names are not case sensitive.<br>
+                                  <input type = "radio" id="3a" name="answer1" value="0"/> JavaScript variable names can begin with a number.<br>
+                                  <input type = "radio" id="4a" name="answer1" value="0"/> None of the above.<br>
+
+                              <br><li>What is the other name for JavaScript?</li>
+                                  <input type = "radio" id="2a" name="answer2" value="0" required/> ECMAscript<br>
+                                  <input type = "radio" id="2b" name="answer2" value="10"/> JS<br>
+                                  <input type = "radio" id="2c" name="answer2" value="0"/> I Don't Know<br>
+
+                              <br><li>Which built-in method removes the last element from an array and returns that element?</li>
+                                  <input type = "radio" id="3a" name="answer3" value="0" required/> last()<br>
+                                  <input type = "radio" id="3b" name="answer3" value="0"/> get()<br>
+                                  <input type = "radio" id="3c" name="answer3" value="10"/> pop()<br>
+                                  <input type = "radio" id="3d" name="answer3" value="0"/> append()<br>
+
+                              <br><li>Which of the following is correct about JavaScript?</li>
+                                  <input type = "radio" id="4a" name="answer4" value="0" required/> JavaScript is a lightweight, interpreted programming language.<br>
+                                  <input type = "radio" id="4b" name="answer4" value="10"/> JavaScript has object-oriented capabilities that allow you to build interactively into otherwise static HTML pages. <br>
+                                  <input type = "radio" id="4c" name="answer4" value="0"/> The general-purpose core of the language has been embedded in Internet Explorer and many other web browsers.<br>
+                                  <input type = "radio" id="4d" name="answer4" value="0"/> None of the above.<br>
+
+                              <br><li>JavaScript is ideal to</li>
+                                  <input type = "radio" id="5a" name="answer5" value="0" required/> Make computations in HTML simpler.<br>
+                                  <input type = "radio" id="5b" name="answer5" value="0"/> Minimize storage requirements on the web server.<br>
+                                  <input type = "radio" id="5c" name="answer5" value="10"/> Increase the download time for the client.<br>
+                                  <input type = "radio" id="5d" name="answer5" value="0"/> Increase the loading time for the website.<br>
+
+                              <br><li>Which built in method reverses the order of the elements in an array?</li>
+                                  <input type = "radio" id="6a" name="answer6" value="0" required/> sort(order)<br>
+                                  <input type = "radio" id="6b" name="answer6" value="10"/> reverse() <br>
+                                  <input type = "radio" id="6c" name="answer6" value="0"/> changeOrder()<br>
+
+                              <br><li>What are the three important manipulations done in a for loop variable?</li>
+                                  <input type = "radio" id="7a" name="answer7" value="0"required/> Updating, Incrementing, Initialization.<br>
+                                  <input type = "radio" id="7b" name="answer7" value="10"/> Initialization, Testing, Updating. <br>
+                                  <input type = "radio" id="7c" name="answer7" value="0"/> Testing, Updating, Testing.<br>
+                                  <input type = "radio" id="7d" name="answer7" value="0"/> Initialization,Testing, Incrementing.<br>
+
+                              <br><li>Javascript is a _____ language.</li>
+                                  <input type = "radio" id="8a" name="answer8" value="0" required/> Programming<br>
+                                  <input type = "radio" id="8b" name="answer8" value="10"/> Scripting  <br>
+                                  <input type = "radio" id="8c" name="answer8" value="0"/> Application<br>
+
+                              <br><li>JavaScript code is written inside a file having extension:</li>
+                                  <input type = "radio" id="9a" name="answer9" value="0" required/> .js <br>
+                                  <input type = "radio" id="9b" name="answer9" value="10"/> .javascript <br>
+                                  <input type = "radio" id="9c" name="answer9" value="0"/> .jsc<br>
+                                  <input type = "radio" id="9d" name="answer9" value="0"/> .jvs<br>
+
+                              <br><li>Which of the following is a JavaScript Data type?</li>
+                                  <input type = "radio" id="10a" name="answer10" value="0" required/> Number <br>
+                                  <input type = "radio" id="10b" name="answer10" value="0"/> String <br>
+                                  <input type = "radio" id="10c" name="answer10" value="0"/> Boolean <br>
+                                  <input type = "radio" id="10d" name="answer10" value="10"/> All of the above<br>
+
+                          </ol>
+
+                              <div id="output"></div>
+                                  <br><button id="butn" class="btn" type = "submit">Get result</button><br>
+                                  <br><button id="butn" class="btn" type = "reset">Reset</button><br>
+                    </div>
+                  </div>
+                </div>
+        </form>
+    </body>
+</html>
