@@ -3,7 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" style="text/css">
     <link href="css/styles.css" rel="stylesheet" style="text/css">
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       <script src="js/scripts.js"></script>
     <title>Quiz Board</title>
@@ -14,15 +14,22 @@
        <p>Here you can test your JavaScript skills to see if you have understood it.</p>
         <p><strong>Ready, Set, Go!!!</strong></p>
 
-      <div class="form">
+      <form id ="quiz" name="quizboard">
         <ol>
         <br><li>Which of the following is true about JavaScript naming conventions?:</li>
-        <input type = "radio" id="quest1"/><br>
+        <input type = "radio" id="1a" name="answer1" value="10"/> JavaScript variable names must begin with a letter which is in lowercase.<br>
+        <input type = "radio" id="2a" name="answer1" value="0"/> JavaScript variable names are not case sensitive.<br>
+        <input type = "radio" id="3a" name="answer1" value="0"/> JavaScript variable names can begin with a number.<br>
+        <input type = "radio" id="4a" name="answer1" value="0"/> None of the above.<br>
+
         <br><li>What is the other name for JavaScript?</li>
-        <input type = "radio" id="quest2"/><br>
-        </ol>
-        </div>
-          <br><button class="btn" type = "button"  onclick="gt()">Get result</button><br>
-          <br><button class="btn" type = "reset"  onclick="gt()">Reset</button><br>
+        <input type = "radio" id="2a" name="answer2" value="0"/> ECMAscript<br>
+        <input type = "radio" id="2b" name="answer2" value="10"/> JS<br>
+        <input type = "radio" id="2c" name="answer2" value="0"/> I Don't Know<br>
+        </form>
+        <div id="output"><div>
+
+          <br><button class="btn" type = "submit">Get result</button><br>
+
   </body>
 </html>
