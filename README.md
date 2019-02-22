@@ -16,10 +16,14 @@ test.</p>
 
 | Behaviour                                   |           Input                      | Output                   |
 | --------------------------------            | :----------------------------------- | :------------------------|
-| This program determines whether the user has| 10 questions are correct             | Your score is 100        |  
+| This program determines whether the user has| No questions are answered            | Your score is NaN        |  
  understood the JavaScript concepts by Testing
  them using a quiz.                                
-<p>Technologies used include:</p>              
+<p>Technologies used include:</p>      
+|                                             | 5 questions are correct              | Your score is 50         |
+|                                             | 10 questions are correct             | Your score is 100        |
+|                                             | The user tries to submit without     | Please select one of
+                                                answering any question                 these inputs
 <ul>
 <li>HTML</li>
 <li>CSS</li>
