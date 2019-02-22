@@ -1,5 +1,5 @@
 ####
-QUIZ Board
+QUIZ BOARD
 ####
 A brief description of my QUIZ BOARD program.
 ####
@@ -11,7 +11,7 @@ By Ephraim Kamau
 Ensure you have JavaScript and Bootstrap files on your computer to enable the program function as it should.
 
 ## Description of the Triangle Tracker program
-<<p> I built a website containing a program called QUIZ BOARD to help my high school after-school computer club. This club was finishing a course on JavaScript and the students had to take a test before completing the course. This will help them to gauge their skills by evaluating them and giving them a score at the ed of the
+<p> I built a website containing a program called QUIZ BOARD to help my high school after-school computer club. This club was finishing a course on JavaScript and the students had to take a test before completing the course. This will help them to gauge their skills by evaluating them and giving them a score at the ed of the
 test.</p>
 
 <p>Technologies used include:</p>
