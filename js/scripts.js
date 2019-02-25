@@ -12,6 +12,17 @@ $(document).ready(function() {
         var value8= parseInt($("[name=answer8]:checked").val());
         var value9= parseInt($("[name=answer9]:checked").val());
         var value10= parseInt($("[name=answer10]:checked").val());
-      $("#output").text("Your score is: "+(value1 + value2 + value3 + value4 + value5 + value6 + value7 + value8 + value9 + value10));
+
+
+      var result = parseInt(value1 + value2 + value3 + value4 + value5 + value6 + value7 + value8 + value9 + value10);
+      if (result > 80) {
+        $("#output").text("Your score is: " + result  +     " Congratulations. You have passed the test excellently!!");
+      }
+      else if (result >= 50 && result <=80) {
+        $("#output").text("Your score is: " + result  +    " You have passed the test fairly.");
+      }
+      else { (result < 50)
+        $("#output").text("Your score is: " + result  +  " You have scored poorly. You need to retake the test.");
+      }
   });
 });
